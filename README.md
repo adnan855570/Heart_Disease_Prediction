@@ -60,7 +60,8 @@ The dataset contains anonymized health metrics related to heart health collected
 
 This plot shows how age is distributed across the dataset. Most patients fall within the 40–60 age range, which aligns with common risk ages for heart-related conditions.
 
-![Age Distribution](./2.png)
+ ![2](https://github.com/user-attachments/assets/8855baa6-433a-42dd-b7a6-bcda0f4b8635)
+
 
 ```python
 import seaborn as sns
@@ -77,7 +78,8 @@ plt.show()
 
 This histogram visualizes the distribution of cholesterol levels across patients. It helps identify outliers or skewness in cholesterol data, which is a critical risk factor for heart disease.
 
-![Cholesterol Distribution](./3.png)
+ ![3](https://github.com/user-attachments/assets/d58b8c65-4c33-4f5c-a7ef-8bccc55e5831)
+
 
 ```python
 import seaborn as sns
@@ -100,7 +102,8 @@ Notably:
 - `ST_Slope` and `ExerciseAngina` show strong correlations with heart disease.
 - `Cholesterol` and `RestingBP` have weaker but still relevant associations.
 
-![Correlation Heatmap](./4.png)
+![4](https://github.com/user-attachments/assets/429b7ddb-66ec-4a0d-b1e7-f2ad677025cb)
+
 
 ```python
 from sklearn.preprocessing import LabelEncoder
@@ -185,7 +188,8 @@ The **ROC (Receiver Operating Characteristic) curve** illustrates the diagnostic
 > ✅ A higher Area Under the Curve (AUC) indicates better performance.  
 > ✅ Ideal curves hug the top-left corner of the graph.
 
-![ROC Curve](./1.png)
+![1](https://github.com/user-attachments/assets/6b7441bc-e59f-4bf8-a5a4-3a6e005fbf9b)
+
 
 ```python
 from sklearn.metrics import roc_auc_score, roc_curve
@@ -214,7 +218,8 @@ The **Random Forest** model allows us to examine which features are most importa
 
 > 📌 Higher importance scores indicate stronger influence on the model’s decision-making process.
 
-![Feature Importance](./5.png)
+![Feature Importance]![5](https://github.com/user-attachments/assets/b9d0a82a-069b-48ce-b55f-26780b41ff2b)
+
 
 ```python
 import seaborn as sns
